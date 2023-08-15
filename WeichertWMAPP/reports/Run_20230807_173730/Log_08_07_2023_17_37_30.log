@@ -1,0 +1,289 @@
+07/08/2023 17:37:30 [INFO]: Initializing and loading the Configurations
+07/08/2023 17:37:30 [INFO]: Getting all properties from file path : resources/inputs/appconfig.properties,resources/inputs/frameworkconfig.properties
+07/08/2023 17:37:30 [INFO]: All Properties loaded successfully..
+07/08/2023 17:37:30 [INFO]: Switching off freemarker spam
+07/08/2023 17:37:30 [INFO]: Starting Extent report in online mode and the report file path : [C:\Users\VamshidharReddyDevir\Downloads\WeichertWMAPP (1)\WeichertWMAPP\reports\Run_20230807_173730/report.html]
+07/08/2023 17:37:30 [INFO]: Loading configurations from path : C:\Users\VamshidharReddyDevir\Downloads\WeichertWMAPP (1)\WeichertWMAPP/resources/report/extent-config.xml
+07/08/2023 17:37:30 [INFO]: Adding the environment details to the extent report
+07/08/2023 17:37:30 [INFO]: Initiating the required elements to run the test
+07/08/2023 17:37:30 [INFO]: Executing Test : WCWM_Customer_Operations
+07/08/2023 17:37:30 [INFO]: Starting extent test for test class :: WCWM_Customer_Operations
+07/08/2023 17:37:30 [INFO]: Loading data
+07/08/2023 17:37:30 [INFO]: Loading data from /resources/inputs/TestData.xlsx of module testcases for the Test : Operations
+07/08/2023 17:37:30 [INFO]: Getting sheet [testcases] from excel file:/resources/inputs/TestData.xlsx
+07/08/2023 17:37:32 [ERROR]: Cannot invoke "org.apache.poi.ss.usermodel.Sheet.getSheetName()" because "sheet" is null
+07/08/2023 17:37:32 [ERROR]: Issue in loading the test data file:/resources/inputs/TestData.xlsx and sheet:testcases and test case:Operations
+07/08/2023 17:37:32 [ERROR]: Cannot invoke "org.apache.poi.ss.usermodel.Sheet.getSheetName()" because "sheet" is null
+07/08/2023 17:37:32 [WARN]: Could not find property [browser.bits] hence returning empty
+07/08/2023 17:37:32 [WARN]: Could not find property [browser.resolution] hence returning empty
+07/08/2023 17:37:32 [WARN]: Could not find property [report.mail.sent] hence returning empty
+07/08/2023 17:37:32 [WARN]: Could not find property [report.mail.to] hence returning empty
+07/08/2023 17:37:32 [WARN]: Could not find property [report.db.insert] hence returning empty
+07/08/2023 17:37:32 [INFO]: Currently executing test is a Web Test
+07/08/2023 17:37:32 [INFO]: Initiating the driver for the browser
+07/08/2023 17:37:32 [INFO]: ================================================================================
+07/08/2023 17:37:32 [INFO]: Grid not selected, running the browser locally
+07/08/2023 17:37:32 [INFO]: Selected browser : Chrome
+07/08/2023 17:37:32 [INFO]: ================================================================================
+07/08/2023 17:37:33 [WARN]: Could not find property [browser.resolution] hence returning empty
+07/08/2023 17:37:35 [INFO]: Calling Login method
+07/08/2023 17:37:35 [INFO]: By.xpath: //*[@id='userName'] found successfully
+07/08/2023 17:37:36 [INFO]: Enhopsclient@weichertwm.com entered successfully in By.xpath: //*[@id='userName']
+07/08/2023 17:37:36 [INFO]: By.xpath: //*[@id='password'] found successfully
+07/08/2023 17:37:37 [INFO]: Enhopstest1! entered successfully in By.xpath: //*[@id='password']
+07/08/2023 17:37:40 [INFO]: By.xpath: //*[@value='Submit'] found successfully
+07/08/2023 17:37:41 [INFO]: Clicked successfully on element - By.xpath: //*[@value='Submit']
+07/08/2023 17:37:41 [INFO]: Page loaded successfully..
+07/08/2023 17:37:43 [INFO]: Login failed
+07/08/2023 17:37:43 [INFO]: Operations on Existing customer
+07/08/2023 17:37:49 [INFO]: By.xpath: //a[text()='Home'] found successfully
+07/08/2023 17:37:49 [INFO]: Clicked successfully on element - By.xpath: //a[text()='Home']
+07/08/2023 17:37:50 [INFO]: By.xpath: //div[text()='Initiate New Move'] found successfully
+07/08/2023 17:37:53 [INFO]: Clicked successfully on element - By.xpath: //div[text()='Initiate New Move']
+07/08/2023 17:38:02 [INFO]: By.xpath: //div/input[@placeholder] found successfully
+07/08/2023 17:38:02 [INFO]: Clicked successfully on element - By.xpath: //div/input[@placeholder]
+07/08/2023 17:38:06 [INFO]: By.xpath: //div/input[@placeholder] found successfully
+07/08/2023 17:38:07 [INFO]: Enhops1 entered successfully in By.xpath: //div/input[@placeholder]
+07/08/2023 17:38:08 [INFO]: By.xpath: //span[@class='slds-radio_faux'] found successfully
+07/08/2023 17:38:09 [INFO]: Clicked successfully on element - By.xpath: //span[@class='slds-radio_faux']
+07/08/2023 17:38:09 [INFO]: By.xpath: //button[text()='Next'] found successfully
+07/08/2023 17:38:09 [INFO]: Clicked successfully on element - By.xpath: //button[text()='Next']
+07/08/2023 17:38:09 [INFO]: By.xpath: //button[text()='Next'] found successfully
+07/08/2023 17:38:11 [INFO]: Clicked successfully on element - By.xpath: //button[text()='Next']
+07/08/2023 17:38:11 [INFO]: By.xpath: //select[@class='slds-select'] found successfully
+07/08/2023 17:38:12 [INFO]: By.xpath: //*[@placeholder='Search below records by policy name'] found successfully
+07/08/2023 17:38:12 [INFO]: Clicked successfully on element - By.xpath: //*[@placeholder='Search below records by policy name']
+07/08/2023 17:38:12 [INFO]: By.xpath: //*[@placeholder='Search below records by policy name'] found successfully
+07/08/2023 17:38:13 [INFO]: Long Term Assignment entered successfully in By.xpath: //*[@placeholder='Search below records by policy name']
+07/08/2023 17:38:14 [INFO]: By.xpath: //span[@class='slds-radio_faux'] found successfully
+07/08/2023 17:38:14 [INFO]: Clicked successfully on element - By.xpath: //span[@class='slds-radio_faux']
+07/08/2023 17:38:14 [INFO]: By.xpath: //button[text()='Next'] found successfully
+07/08/2023 17:38:15 [INFO]: Clicked successfully on element - By.xpath: //button[text()='Next']
+07/08/2023 17:38:19 [INFO]: By.xpath: //div[@id='secAccTblContent']/table/tbody/tr[2]/td[9]/div found successfully
+07/08/2023 17:38:20 [INFO]: Mouse hovering on element - By.xpath: //div[@id='secAccTblContent']/table/tbody/tr[2]/td[9]/div
+07/08/2023 17:38:29 [INFO]: By.xpath: //div[@id='secAccTblContent']/table/tbody/tr[2]/td[9]/div found successfully
+07/08/2023 17:38:29 [INFO]: Clicked successfully on element - By.xpath: //div[@id='secAccTblContent']/table/tbody/tr[2]/td[9]/div
+07/08/2023 17:38:39 [INFO]: By.xpath: //div[@id='secAccTblContent']/table/tbody/tr[3]/td[9]/div found successfully
+07/08/2023 17:38:39 [INFO]: Clicked successfully on element - By.xpath: //div[@id='secAccTblContent']/table/tbody/tr[3]/td[9]/div
+07/08/2023 17:38:45 [INFO]: By.xpath: //div[@id='secAccTblContent']/table/tbody/tr[4]/td[3]/div/lightning-combobox found successfully
+07/08/2023 17:38:46 [INFO]: Clicked successfully on element - By.xpath: //div[@id='secAccTblContent']/table/tbody/tr[4]/td[3]/div/lightning-combobox
+07/08/2023 17:38:46 [INFO]: By.xpath: //div[@id='secAccTblContent']/table/tbody/tr[4]//span[text()='United States'] found successfully
+07/08/2023 17:38:48 [INFO]: Clicked using Javascript successfully on element - By.xpath: //div[@id='secAccTblContent']/table/tbody/tr[4]//span[text()='United States']
+07/08/2023 17:38:49 [INFO]: By.xpath: //div[@id='secAccTblContent']/table/tbody/tr[4]/td[4]/div/lightning-combobox found successfully
+07/08/2023 17:38:49 [INFO]: Clicked successfully on element - By.xpath: //div[@id='secAccTblContent']/table/tbody/tr[4]/td[4]/div/lightning-combobox
+07/08/2023 17:38:50 [INFO]: By.xpath: //div[@id='secAccTblContent']/table/tbody/tr[4]//span[text()='Florida'] found successfully
+07/08/2023 17:38:51 [INFO]: Clicked using Javascript successfully on element - By.xpath: //div[@id='secAccTblContent']/table/tbody/tr[4]//span[text()='Florida']
+07/08/2023 17:38:52 [INFO]: By.xpath: //div[@id='secAccTblContent']/table/tbody/tr[4]/td[5]/div/lightning-combobox found successfully
+07/08/2023 17:38:53 [INFO]: Clicked successfully on element - By.xpath: //div[@id='secAccTblContent']/table/tbody/tr[4]/td[5]/div/lightning-combobox
+07/08/2023 17:38:53 [INFO]: By.xpath: //div[@id='secAccTblContent']/table/tbody/tr[4]//span[text()='Miami'] found successfully
+07/08/2023 17:38:55 [INFO]: Clicked using Javascript successfully on element - By.xpath: //div[@id='secAccTblContent']/table/tbody/tr[4]//span[text()='Miami']
+07/08/2023 17:38:56 [INFO]: By.xpath: //div[@id='secAccTblContent']/table/tbody/tr[4]/td[6]/div/lightning-combobox found successfully
+07/08/2023 17:38:57 [INFO]: Clicked successfully on element - By.xpath: //div[@id='secAccTblContent']/table/tbody/tr[4]/td[6]/div/lightning-combobox
+07/08/2023 17:38:57 [INFO]: By.xpath: //div[@id='secAccTblContent']/table/tbody/tr[4]//span[text()='33102'] found successfully
+07/08/2023 17:38:58 [INFO]: Clicked successfully on element - By.xpath: //div[@id='secAccTblContent']/table/tbody/tr[4]//span[text()='33102']
+07/08/2023 17:38:59 [INFO]: By.xpath: //div[@id='secAccTblContent']/table/tbody/tr[4]/td[8]/div found successfully
+07/08/2023 17:38:59 [INFO]: Clicked successfully on element - By.xpath: //div[@id='secAccTblContent']/table/tbody/tr[4]/td[8]/div
+07/08/2023 17:38:59 [INFO]: By.xpath: //div[@id='secAccTblContent']/table/tbody/tr[4]/td[8]/div//input[@class='slds-input'] found successfully
+07/08/2023 17:39:00 [INFO]: 1 Street entered successfully in By.xpath: //div[@id='secAccTblContent']/table/tbody/tr[4]/td[8]/div//input[@class='slds-input']
+07/08/2023 17:39:00 [INFO]: By.xpath: //button[text()='Next'] found successfully
+07/08/2023 17:39:01 [INFO]: Clicked successfully on element - By.xpath: //button[text()='Next']
+07/08/2023 17:39:01 [INFO]: By.xpath: //button[text()='Next'] found successfully
+07/08/2023 17:39:02 [INFO]: Clicked successfully on element - By.xpath: //button[text()='Next']
+07/08/2023 17:39:03 [INFO]: By.xpath: //button[@name='Authorization_Scope_of_Business__c'] found successfully
+07/08/2023 17:39:04 [INFO]: Clicked successfully on element - By.xpath: //button[@name='Authorization_Scope_of_Business__c']
+07/08/2023 17:39:04 [INFO]: By.xpath: //span[text()='Full Authorization'] found successfully
+07/08/2023 17:39:05 [INFO]: Clicked successfully on element - By.xpath: //span[text()='Full Authorization']
+07/08/2023 17:39:05 [INFO]: By.xpath: //input[@name='Estimated_Move_Start_Date__c'] found successfully
+07/08/2023 17:39:06 [INFO]: Aug 4, 2023 entered successfully in By.xpath: //input[@name='Estimated_Move_Start_Date__c']
+07/08/2023 17:39:06 [INFO]: By.xpath: //input[@name='Estimated_Move_End_Date__c'] found successfully
+07/08/2023 17:39:06 [INFO]: Oct 4, 2023 entered successfully in By.xpath: //input[@name='Estimated_Move_End_Date__c']
+07/08/2023 17:39:06 [INFO]: By.xpath: //input[@name='New_Annual_Salary__c'] found successfully
+07/08/2023 17:39:07 [INFO]: 150,000 entered successfully in By.xpath: //input[@name='New_Annual_Salary__c']
+07/08/2023 17:39:07 [INFO]: By.xpath: //button[@name='New_Annual_Salary_Currency__c'] found successfully
+07/08/2023 17:39:08 [INFO]: Clicked successfully on element - By.xpath: //button[@name='New_Annual_Salary_Currency__c']
+07/08/2023 17:39:08 [INFO]: By.xpath: //span[text()='United States Dollar - USD'] found successfully
+07/08/2023 17:39:09 [INFO]: Clicked using Javascript successfully on element - By.xpath: //span[text()='United States Dollar - USD']
+07/08/2023 17:39:10 [INFO]: By.xpath: //input[@name='New_Annual_Salary_Effective_Date__c'] found successfully
+07/08/2023 17:39:10 [INFO]: Clicked successfully on element - By.xpath: //input[@name='New_Annual_Salary_Effective_Date__c']
+07/08/2023 17:39:10 [INFO]: By.xpath: //input[@name='New_Annual_Salary_Effective_Date__c'] found successfully
+07/08/2023 17:39:11 [INFO]: Aug 4, 2023 entered successfully in By.xpath: //input[@name='New_Annual_Salary_Effective_Date__c']
+07/08/2023 17:39:11 [INFO]: By.xpath: //input[@name='New_Job_Title__c'] found successfully
+07/08/2023 17:39:12 [INFO]: New Job entered successfully in By.xpath: //input[@name='New_Job_Title__c']
+07/08/2023 17:39:12 [INFO]: By.xpath: //button[@name='Home_Housing__c'] found successfully
+07/08/2023 17:39:12 [INFO]: Clicked successfully on element - By.xpath: //button[@name='Home_Housing__c']
+07/08/2023 17:39:12 [INFO]: By.xpath: //span[text()='Company Owned'] found successfully
+07/08/2023 17:39:13 [INFO]: Clicked successfully on element - By.xpath: //span[text()='Company Owned']
+07/08/2023 17:39:13 [INFO]: By.xpath: //input[@name='Home_Payroll_ID_is_same_as_Employee_ID__c'] found successfully
+07/08/2023 17:39:14 [INFO]: Clicked successfully on element - By.xpath: //input[@name='Home_Payroll_ID_is_same_as_Employee_ID__c']
+07/08/2023 17:39:14 [INFO]: By.xpath: //button[@name='Tax_Filing_Status__c'] found successfully
+07/08/2023 17:39:14 [INFO]: Clicked successfully on element - By.xpath: //button[@name='Tax_Filing_Status__c']
+07/08/2023 17:39:14 [INFO]: By.xpath: //span[text()='2-Married'] found successfully
+07/08/2023 17:39:15 [INFO]: Clicked successfully on element - By.xpath: //span[text()='2-Married']
+07/08/2023 17:39:15 [INFO]: By.xpath: //button[@name='Employment_Type__c'] found successfully
+07/08/2023 17:39:16 [INFO]: Clicked successfully on element - By.xpath: //button[@name='Employment_Type__c']
+07/08/2023 17:39:16 [INFO]: By.xpath: //span[text()='Current Employee'] found successfully
+07/08/2023 17:39:16 [INFO]: Clicked successfully on element - By.xpath: //span[text()='Current Employee']
+07/08/2023 17:39:16 [INFO]: By.xpath: //button[@name='Test_Job_Grade__c'] found successfully
+07/08/2023 17:39:17 [INFO]: Clicked successfully on element - By.xpath: //button[@name='Test_Job_Grade__c']
+07/08/2023 17:39:17 [INFO]: By.xpath: //span[text()='A'] found successfully
+07/08/2023 17:39:17 [INFO]: Clicked successfully on element - By.xpath: //span[text()='A']
+07/08/2023 17:39:18 [INFO]: By.xpath: //button[@name='Test_Company_Code__c'] found successfully
+07/08/2023 17:39:18 [INFO]: Clicked successfully on element - By.xpath: //button[@name='Test_Company_Code__c']
+07/08/2023 17:39:18 [INFO]: By.xpath: //span[text()='001'] found successfully
+07/08/2023 17:39:19 [INFO]: Clicked successfully on element - By.xpath: //span[text()='001']
+07/08/2023 17:39:22 [INFO]: By.xpath: //button[text()='Save and Next'] found successfully
+07/08/2023 17:39:23 [INFO]: Clicked successfully on element - By.xpath: //button[text()='Save and Next']
+07/08/2023 17:39:43 [INFO]: By.xpath: //*[@title='Submit Authorization to Weichert'] found successfully
+07/08/2023 17:39:43 [INFO]: Clicked successfully on element - By.xpath: //*[@title='Submit Authorization to Weichert']
+07/08/2023 17:40:09 [INFO]: Operations on New customer
+07/08/2023 17:40:09 [INFO]: By.xpath: //a[text()='Home'] found successfully
+07/08/2023 17:40:10 [INFO]: Clicked successfully on element - By.xpath: //a[text()='Home']
+07/08/2023 17:40:13 [INFO]: By.xpath: //div[text()='Initiate New Move'] found successfully
+07/08/2023 17:40:17 [INFO]: Clicked successfully on element - By.xpath: //div[text()='Initiate New Move']
+07/08/2023 17:40:26 [INFO]: By.xpath: //button[text()='Next'] found successfully
+07/08/2023 17:40:27 [INFO]: Clicked successfully on element - By.xpath: //button[text()='Next']
+07/08/2023 17:40:33 [INFO]: By.xpath: //input[@name='FirstName'] found successfully
+07/08/2023 17:40:34 [INFO]: m09940fa entered successfully in By.xpath: //input[@name='FirstName']
+07/08/2023 17:40:34 [INFO]: By.xpath: //input[@name='LastName'] found successfully
+07/08/2023 17:40:35 [INFO]: c89878la entered successfully in By.xpath: //input[@name='LastName']
+07/08/2023 17:40:35 [INFO]: By.xpath: //input[@name='Email'] found successfully
+07/08/2023 17:40:36 [INFO]: wdyODab@weichertwm.com entered successfully in By.xpath: //input[@name='Email']
+07/08/2023 17:40:36 [INFO]: By.xpath: //button[@name='Preferred_Method_of_Contact__c'] found successfully
+07/08/2023 17:40:37 [INFO]: Clicked successfully on element - By.xpath: //button[@name='Preferred_Method_of_Contact__c']
+07/08/2023 17:40:37 [INFO]: By.xpath: //span[text()='Work Email'] found successfully
+07/08/2023 17:40:37 [INFO]: Clicked successfully on element - By.xpath: //span[text()='Work Email']
+07/08/2023 17:40:37 [INFO]: By.xpath: //input[@name='Employee_ID__c'] found successfully
+07/08/2023 17:40:38 [INFO]: Thf9gw entered successfully in By.xpath: //input[@name='Employee_ID__c']
+07/08/2023 17:40:38 [INFO]: By.xpath: //button[@name='Level1'] found successfully
+07/08/2023 17:40:39 [INFO]: Clicked successfully on element - By.xpath: //button[@name='Level1']
+07/08/2023 17:40:39 [INFO]: By.xpath: //span[text()='United States'] found successfully
+07/08/2023 17:40:41 [INFO]: Clicked using Javascript successfully on element - By.xpath: //span[text()='United States']
+07/08/2023 17:40:41 [INFO]: By.xpath: //button[@name='Level2'] found successfully
+07/08/2023 17:40:42 [INFO]: Clicked successfully on element - By.xpath: //button[@name='Level2']
+07/08/2023 17:40:42 [INFO]: By.xpath: //span[text()='New Jersey'] found successfully
+07/08/2023 17:40:44 [INFO]: Clicked using Javascript successfully on element - By.xpath: //span[text()='New Jersey']
+07/08/2023 17:40:44 [INFO]: By.xpath: //button[@name='Level4'] found successfully
+07/08/2023 17:40:45 [INFO]: Clicked successfully on element - By.xpath: //button[@name='Level4']
+07/08/2023 17:40:45 [INFO]: By.xpath: //span[text()='Morristown'] found successfully
+07/08/2023 17:40:47 [INFO]: Clicked using Javascript successfully on element - By.xpath: //span[text()='Morristown']
+07/08/2023 17:40:48 [INFO]: By.xpath: //button[@name='Level5'] found successfully
+07/08/2023 17:40:48 [INFO]: Clicked successfully on element - By.xpath: //button[@name='Level5']
+07/08/2023 17:40:48 [INFO]: By.xpath: //span[text()='07962'] found successfully
+07/08/2023 17:40:49 [INFO]: Clicked successfully on element - By.xpath: //span[text()='07962']
+07/08/2023 17:40:50 [INFO]: By.xpath: //input[@name='Street'] found successfully
+07/08/2023 17:40:50 [INFO]: 21 main street entered successfully in By.xpath: //input[@name='Street']
+07/08/2023 17:40:51 [INFO]: By.xpath: //button[text()='Save and Next'] found successfully
+07/08/2023 17:40:52 [INFO]: Clicked successfully on element - By.xpath: //button[text()='Save and Next']
+07/08/2023 17:40:58 [INFO]: By.xpath: //select[@class='slds-select'] found successfully
+07/08/2023 17:40:59 [INFO]: By.xpath: //*[@placeholder='Search below records by policy name'] found successfully
+07/08/2023 17:41:00 [INFO]: Clicked successfully on element - By.xpath: //*[@placeholder='Search below records by policy name']
+07/08/2023 17:41:00 [INFO]: By.xpath: //*[@placeholder='Search below records by policy name'] found successfully
+07/08/2023 17:41:01 [INFO]: Long Term Assignment entered successfully in By.xpath: //*[@placeholder='Search below records by policy name']
+07/08/2023 17:41:01 [INFO]: By.xpath: //span[@class='slds-radio_faux'] found successfully
+07/08/2023 17:41:02 [INFO]: Clicked successfully on element - By.xpath: //span[@class='slds-radio_faux']
+07/08/2023 17:41:03 [INFO]: By.xpath: //button[text()='Next'] found successfully
+07/08/2023 17:41:04 [INFO]: Clicked successfully on element - By.xpath: //button[text()='Next']
+07/08/2023 17:41:10 [INFO]: By.xpath: //div[@id='secAccTblContent']/table/tbody/tr[2]/td[9]/div/a found successfully
+07/08/2023 17:41:12 [INFO]: Clicked using Javascript successfully on element - By.xpath: //div[@id='secAccTblContent']/table/tbody/tr[2]/td[9]/div/a
+07/08/2023 17:41:17 [INFO]: By.xpath: //div[@id='secAccTblContent']/table/tbody/tr[3]/td[9]/div found successfully
+07/08/2023 17:41:18 [INFO]: Clicked successfully on element - By.xpath: //div[@id='secAccTblContent']/table/tbody/tr[3]/td[9]/div
+07/08/2023 17:41:24 [INFO]: By.xpath: //div[@id='secAccTblContent']/table/tbody/tr[4]/td[3]/div/lightning-combobox found successfully
+07/08/2023 17:41:25 [INFO]: Clicked successfully on element - By.xpath: //div[@id='secAccTblContent']/table/tbody/tr[4]/td[3]/div/lightning-combobox
+07/08/2023 17:41:25 [INFO]: By.xpath: //div[@id='secAccTblContent']/table/tbody/tr[4]//span[text()='United States'] found successfully
+07/08/2023 17:41:27 [INFO]: Clicked using Javascript successfully on element - By.xpath: //div[@id='secAccTblContent']/table/tbody/tr[4]//span[text()='United States']
+07/08/2023 17:41:27 [INFO]: By.xpath: //div[@id='secAccTblContent']/table/tbody/tr[4]/td[4]/div/lightning-combobox found successfully
+07/08/2023 17:41:28 [INFO]: Clicked successfully on element - By.xpath: //div[@id='secAccTblContent']/table/tbody/tr[4]/td[4]/div/lightning-combobox
+07/08/2023 17:41:28 [INFO]: By.xpath: //div[@id='secAccTblContent']/table/tbody/tr[4]//span[text()='Florida'] found successfully
+07/08/2023 17:41:30 [INFO]: Clicked using Javascript successfully on element - By.xpath: //div[@id='secAccTblContent']/table/tbody/tr[4]//span[text()='Florida']
+07/08/2023 17:41:30 [INFO]: By.xpath: //div[@id='secAccTblContent']/table/tbody/tr[4]/td[5]/div/lightning-combobox found successfully
+07/08/2023 17:41:31 [INFO]: Clicked successfully on element - By.xpath: //div[@id='secAccTblContent']/table/tbody/tr[4]/td[5]/div/lightning-combobox
+07/08/2023 17:41:31 [INFO]: By.xpath: //div[@id='secAccTblContent']/table/tbody/tr[4]//span[text()='Miami'] found successfully
+07/08/2023 17:41:33 [INFO]: Clicked using Javascript successfully on element - By.xpath: //div[@id='secAccTblContent']/table/tbody/tr[4]//span[text()='Miami']
+07/08/2023 17:41:34 [INFO]: By.xpath: //div[@id='secAccTblContent']/table/tbody/tr[4]/td[6]/div/lightning-combobox found successfully
+07/08/2023 17:41:35 [INFO]: Clicked successfully on element - By.xpath: //div[@id='secAccTblContent']/table/tbody/tr[4]/td[6]/div/lightning-combobox
+07/08/2023 17:41:35 [INFO]: By.xpath: //div[@id='secAccTblContent']/table/tbody/tr[4]//span[text()='33102'] found successfully
+07/08/2023 17:41:36 [INFO]: Clicked successfully on element - By.xpath: //div[@id='secAccTblContent']/table/tbody/tr[4]//span[text()='33102']
+07/08/2023 17:41:37 [INFO]: By.xpath: //div[@id='secAccTblContent']/table/tbody/tr[4]/td[8]/div found successfully
+07/08/2023 17:41:38 [INFO]: Clicked successfully on element - By.xpath: //div[@id='secAccTblContent']/table/tbody/tr[4]/td[8]/div
+07/08/2023 17:41:38 [INFO]: By.xpath: //div[@id='secAccTblContent']/table/tbody/tr[4]/td[8]/div//input[@class='slds-input'] found successfully
+07/08/2023 17:41:38 [INFO]: 3 main Street entered successfully in By.xpath: //div[@id='secAccTblContent']/table/tbody/tr[4]/td[8]/div//input[@class='slds-input']
+07/08/2023 17:41:44 [INFO]: By.xpath: //button[text()='Next'] found successfully
+07/08/2023 17:41:44 [INFO]: Clicked successfully on element - By.xpath: //button[text()='Next']
+07/08/2023 17:41:46 [INFO]: By.xpath: //button[text()='Add Dependent(s)'] found successfully
+07/08/2023 17:41:46 [INFO]: Clicked successfully on element - By.xpath: //button[text()='Add Dependent(s)']
+07/08/2023 17:41:48 [INFO]: By.xpath: //input[@name='FirstName'] found successfully
+07/08/2023 17:41:49 [INFO]: 2579spl entered successfully in By.xpath: //input[@name='FirstName']
+07/08/2023 17:41:49 [INFO]: By.xpath: //input[@name='LastName'] found successfully
+07/08/2023 17:41:50 [INFO]: c89878la entered successfully in By.xpath: //input[@name='LastName']
+07/08/2023 17:41:50 [INFO]: By.xpath: //input[@name='Email'] found successfully
+07/08/2023 17:41:51 [INFO]: 4413spl@weichertwm.com entered successfully in By.xpath: //input[@name='Email']
+07/08/2023 17:41:56 [INFO]: By.xpath: //select[@class='slds-select'] found successfully
+07/08/2023 17:41:58 [INFO]: By.xpath: //input[@name='Birthdate'] found successfully
+07/08/2023 17:41:58 [INFO]: Clicked successfully on element - By.xpath: //input[@name='Birthdate']
+07/08/2023 17:41:59 [INFO]: By.xpath: //input[@name='Birthdate'] found successfully
+07/08/2023 17:41:59 [INFO]: Aug 14, 1970 entered successfully in By.xpath: //input[@name='Birthdate']
+07/08/2023 17:41:59 [INFO]: By.xpath: //span[text()='Employee of Company?']/../../div//select[@class='slds-select'] found successfully
+07/08/2023 17:42:01 [INFO]: By.xpath: //button[@name='Level3'] found successfully
+07/08/2023 17:42:02 [INFO]: Clicked successfully on element - By.xpath: //button[@name='Level3']
+07/08/2023 17:42:02 [INFO]: By.xpath: //span[text()='Morris'] found successfully
+07/08/2023 17:42:04 [INFO]: Clicked using Javascript successfully on element - By.xpath: //span[text()='Morris']
+07/08/2023 17:42:05 [INFO]: By.xpath: //button[@name='Level4'] found successfully
+07/08/2023 17:42:05 [INFO]: Clicked successfully on element - By.xpath: //button[@name='Level4']
+07/08/2023 17:42:05 [INFO]: By.xpath: //span[text()='Morristown'] found successfully
+07/08/2023 17:42:07 [INFO]: Clicked using Javascript successfully on element - By.xpath: //span[text()='Morristown']
+07/08/2023 17:42:08 [INFO]: By.xpath: //button[@name='Level5'] found successfully
+07/08/2023 17:42:09 [INFO]: Clicked successfully on element - By.xpath: //button[@name='Level5']
+07/08/2023 17:42:09 [INFO]: By.xpath: //span[text()='07961'] found successfully
+07/08/2023 17:42:09 [INFO]: Clicked successfully on element - By.xpath: //span[text()='07961']
+07/08/2023 17:42:12 [INFO]: By.xpath: //label[text()='Mailing Street']/../div/input found successfully
+07/08/2023 17:42:13 [INFO]: 2 main street entered successfully in By.xpath: //label[text()='Mailing Street']/../div/input
+07/08/2023 17:42:14 [INFO]: By.xpath: //button[text()='Next'] found successfully
+07/08/2023 17:42:15 [INFO]: Clicked successfully on element - By.xpath: //button[text()='Next']
+07/08/2023 17:42:17 [INFO]: By.xpath: //button[@name='Authorization_Scope_of_Business__c'] found successfully
+07/08/2023 17:42:18 [INFO]: Clicked successfully on element - By.xpath: //button[@name='Authorization_Scope_of_Business__c']
+07/08/2023 17:42:18 [INFO]: By.xpath: //span[text()='Full Authorization'] found successfully
+07/08/2023 17:42:19 [INFO]: Clicked successfully on element - By.xpath: //span[text()='Full Authorization']
+07/08/2023 17:42:19 [INFO]: By.xpath: //input[@name='Estimated_Move_Start_Date__c'] found successfully
+07/08/2023 17:42:19 [INFO]: Aug 4, 2023 entered successfully in By.xpath: //input[@name='Estimated_Move_Start_Date__c']
+07/08/2023 17:42:20 [INFO]: By.xpath: //input[@name='Estimated_Move_End_Date__c'] found successfully
+07/08/2023 17:42:20 [INFO]: Oct 5, 2023 entered successfully in By.xpath: //input[@name='Estimated_Move_End_Date__c']
+07/08/2023 17:42:20 [INFO]: By.xpath: //input[@name='New_Annual_Salary__c'] found successfully
+07/08/2023 17:42:21 [INFO]: 150,000 entered successfully in By.xpath: //input[@name='New_Annual_Salary__c']
+07/08/2023 17:42:21 [INFO]: By.xpath: //button[@name='New_Annual_Salary_Currency__c'] found successfully
+07/08/2023 17:42:22 [INFO]: Clicked successfully on element - By.xpath: //button[@name='New_Annual_Salary_Currency__c']
+07/08/2023 17:42:22 [INFO]: By.xpath: //span[text()='United States Dollar - USD'] found successfully
+07/08/2023 17:42:24 [INFO]: Clicked using Javascript successfully on element - By.xpath: //span[text()='United States Dollar - USD']
+07/08/2023 17:42:24 [INFO]: By.xpath: //input[@name='New_Annual_Salary_Effective_Date__c'] found successfully
+07/08/2023 17:42:25 [INFO]: Clicked successfully on element - By.xpath: //input[@name='New_Annual_Salary_Effective_Date__c']
+07/08/2023 17:42:25 [INFO]: By.xpath: //input[@name='New_Annual_Salary_Effective_Date__c'] found successfully
+07/08/2023 17:42:26 [INFO]: Aug 4, 2023 entered successfully in By.xpath: //input[@name='New_Annual_Salary_Effective_Date__c']
+07/08/2023 17:42:26 [INFO]: By.xpath: //input[@name='New_Job_Title__c'] found successfully
+07/08/2023 17:42:27 [INFO]: New Job entered successfully in By.xpath: //input[@name='New_Job_Title__c']
+07/08/2023 17:42:27 [INFO]: By.xpath: //button[@name='Home_Housing__c'] found successfully
+07/08/2023 17:42:27 [INFO]: Clicked successfully on element - By.xpath: //button[@name='Home_Housing__c']
+07/08/2023 17:42:27 [INFO]: By.xpath: //span[text()='Company Owned'] found successfully
+07/08/2023 17:42:28 [INFO]: Clicked successfully on element - By.xpath: //span[text()='Company Owned']
+07/08/2023 17:42:28 [INFO]: By.xpath: //input[@name='Home_Payroll_ID_is_same_as_Employee_ID__c'] found successfully
+07/08/2023 17:42:29 [INFO]: Clicked successfully on element - By.xpath: //input[@name='Home_Payroll_ID_is_same_as_Employee_ID__c']
+07/08/2023 17:42:29 [INFO]: By.xpath: //button[@name='Tax_Filing_Status__c'] found successfully
+07/08/2023 17:42:30 [INFO]: Clicked successfully on element - By.xpath: //button[@name='Tax_Filing_Status__c']
+07/08/2023 17:42:30 [INFO]: By.xpath: //span[text()='2-Married'] found successfully
+07/08/2023 17:42:30 [INFO]: Clicked successfully on element - By.xpath: //span[text()='2-Married']
+07/08/2023 17:42:30 [INFO]: By.xpath: //button[@name='Employment_Type__c'] found successfully
+07/08/2023 17:42:31 [INFO]: Clicked successfully on element - By.xpath: //button[@name='Employment_Type__c']
+07/08/2023 17:42:31 [INFO]: By.xpath: //span[text()='Current Employee'] found successfully
+07/08/2023 17:42:32 [INFO]: Clicked successfully on element - By.xpath: //span[text()='Current Employee']
+07/08/2023 17:42:32 [INFO]: By.xpath: //button[@name='Test_Job_Grade__c'] found successfully
+07/08/2023 17:42:33 [INFO]: Clicked successfully on element - By.xpath: //button[@name='Test_Job_Grade__c']
+07/08/2023 17:42:33 [INFO]: By.xpath: //span[text()='A'] found successfully
+07/08/2023 17:42:33 [INFO]: Clicked successfully on element - By.xpath: //span[text()='A']
+07/08/2023 17:42:33 [INFO]: By.xpath: //button[@name='Test_Company_Code__c'] found successfully
+07/08/2023 17:42:34 [INFO]: Clicked successfully on element - By.xpath: //button[@name='Test_Company_Code__c']
+07/08/2023 17:42:34 [INFO]: By.xpath: //span[text()='001'] found successfully
+07/08/2023 17:42:35 [INFO]: Clicked successfully on element - By.xpath: //span[text()='001']
+07/08/2023 17:42:38 [INFO]: By.xpath: //button[text()='Save and Next'] found successfully
+07/08/2023 17:42:39 [INFO]: Clicked successfully on element - By.xpath: //button[text()='Save and Next']
+07/08/2023 17:43:04 [INFO]: By.xpath: //button[text()='Submit Authorization to Weichert'] found successfully
+07/08/2023 17:43:05 [INFO]: Clicked successfully on element - By.xpath: //button[text()='Submit Authorization to Weichert']
+07/08/2023 17:43:31 [INFO]: Closing the driver
+07/08/2023 17:43:32 [INFO]: Ending ExtentTest throgh class com.weichertwm.qa.testcases.WCWM_Customer_Operations

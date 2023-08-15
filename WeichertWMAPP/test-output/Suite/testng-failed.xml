@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.weichertwm.qa.framework.Listener"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.weichertwm.qa.testcases.WCWM_Customer_Operations">
+        <methods>
+          <include name="test"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.weichertwm.qa.testcases.WCWM_Customer_Operations -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

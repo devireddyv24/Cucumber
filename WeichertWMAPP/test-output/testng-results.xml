@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-08-07T12:07:30Z" name="Default suite" finished-at="2023-08-07T12:13:32Z" duration-ms="361955">
+    <groups>
+    </groups>
+    <test started-at="2023-08-07T12:07:30Z" name="Default test" finished-at="2023-08-07T12:13:32Z" duration-ms="361955">
+      <class name="com.weichertwm.qa.testcases.WCWM_Customer_Operations">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.weichertwm.qa.testcases.WCWM_Customer_Operations@44be0077]" started-at="2023-08-07T17:37:30Z" name="beforeSuite" finished-at="2023-08-07T17:37:30Z" duration-ms="380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.weichertwm.qa.testcases.WCWM_Customer_Operations@44be0077]" started-at="2023-08-07T17:37:30Z" name="beforeTest" finished-at="2023-08-07T17:37:35Z" duration-ms="4937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="test()[pri:0, instance:com.weichertwm.qa.testcases.WCWM_Customer_Operations@44be0077]" started-at="2023-08-07T17:37:35Z" name="test" finished-at="2023-08-07T17:43:31Z" duration-ms="356033" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.weichertwm.qa.testcases.WCWM_Customer_Operations@44be0077]" started-at="2023-08-07T17:43:31Z" name="afterTest" finished-at="2023-08-07T17:43:32Z" duration-ms="954" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test status=SUCCESS method=TestCase.test()[pri:0, instance:com.weichertwm.qa.testcases.WCWM_Customer_Operations@44be0077] output=""]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.weichertwm.qa.testcases.WCWM_Customer_Operations@44be0077]" started-at="2023-08-07T17:43:32Z" name="afterSuite" finished-at="2023-08-07T17:43:32Z" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.weichertwm.qa.testcases.WCWM_Customer_Operations -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
